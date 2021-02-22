@@ -1,0 +1,33 @@
+{
+	"name": "sync-node-modules-version-to-package",
+	"version": "1.0.0",
+	"description": "Synchronizes the node_modules version to the package.json",
+	"scripts": {
+		"release": "npm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/n3taway/lock-package.git"
+	},
+	"keywords": [],
+	"author": "n3taway@gmail.com",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/n3taway/lock-package/issues"
+	},
+	"bin": {
+		"syncnodemodules": "bin/syncnodemodules.js"
+	},
+	"homepage": "https://github.com/n3taway/sync-node-modules-version-to-package#readme",
+	"engines": {
+		"node": ">=10.0.0"
+	},
+	"dependencies": {
+		"inquirer": "7.3.3",
+		"marked": "2.0.0",
+		"marked-terminal": "4.1.0",
+		"process.argv": "0.6.0",
+		"progress": "2.0.3",
+		"fs-extra": "9.1.0"
+	}
+}
