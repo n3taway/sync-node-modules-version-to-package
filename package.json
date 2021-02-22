@@ -7,13 +7,13 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/n3taway/lock-package.git"
+		"url": "git+https://github.com/n3taway/sync-node-modules-version-to-package.git"
 	},
 	"keywords": [],
 	"author": "n3taway@gmail.com",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/n3taway/lock-package/issues"
+		"url": "https://github.com/n3taway/sync-node-modules-version-to-package/issues"
 	},
 	"bin": {
 		"syncnodemodules": "bin/syncnodemodules.js"
