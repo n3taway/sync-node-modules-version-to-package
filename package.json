@@ -1,6 +1,6 @@
 {
 	"name": "sync-node-modules-version-to-package",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Synchronizes the node_modules version to the package.json",
 	"scripts": {
 		"release": "npm publish"
